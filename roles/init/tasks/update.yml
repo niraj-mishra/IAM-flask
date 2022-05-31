@@ -1,0 +1,5 @@
+---
+ # Run yum update
+
+- name: Run yum update
+  yum: update_cache=yes

@@ -1,0 +1,5 @@
+---
+ # Run yum upgrade
+
+- name: Update all packages
+  yum: upgrade=dist

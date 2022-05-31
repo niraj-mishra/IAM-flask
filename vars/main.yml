@@ -1,0 +1,32 @@
+---
+ # Common variables for ec2-flask-app
+
+# Application variables
+app_root: /var/www/IAM-Flask
+app_name: IAM-Development
+app_user: www-data
+server_name: IAM-Flask-server
+
+# Application git repo
+git_app_repo: 
+git_ssh_key: 
+
+# System variables
+sys_user: ec2-user
+
+# EC2 variables
+instance_type: t2.micro
+security_group: 
+image: 
+region: 
+keypair: 
+
+# Required common packages
+common_packages:
+  - python
+  - build-essential
+  - python-dev
+  - python-virtualenv
+  - libpq-dev
+  - git
+  - build-essential
